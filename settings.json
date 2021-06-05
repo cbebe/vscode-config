@@ -1,27 +1,9 @@
 {
-  "glassit.alpha": 215,
-  "editor.lineNumbers": "on",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "java.configuration.checkProjectSettingsExclusions": false,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true,
-  "[python]": {
-    "editor.tabSize": 4
-  },
-  "editor.tabSize": 2,
+  // Git stuff
   "git.enableSmartCommit": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "git.confirmSync": false,
+
+  // Theme
   "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
   "workbench.colorCustomizations": {
     "[Material Theme Ocean High Contrast]": {
@@ -51,55 +33,45 @@
     }
   },
   "materialTheme.accent": "Graphite",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "git.confirmSync": false,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "workbench.iconTheme": "material-icon-theme",
+  "glassit.alpha": 215,
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.configuration.checkProjectSettingsExclusions": false,
+
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "on",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "[python]": { "editor.tabSize": 4 },
+  "workbench.editorAssociations": [{ "viewType": "jupyter.notebook.ipynb", "filenamePattern": "*.ipynb" }],
+
   "liveServer.settings.port": 8000,
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-  "files.associations": {
-    "*.module": "php",
-    ".vmodrc": "shellscript",
-    "*.vim": "vimrc"
-  },
-  "workbench.iconTheme": "material-icon-theme",
+  "files.associations": { "*.module": "php", ".vmodrc": "shellscript", "*.vim": "vimrc" },
   "python.languageServer": "Microsoft",
-  "[godot]": {
-    "editor.tabSize": 2
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+
+  "vim.enableNeovim": true,
+  "vim.handleKeys": { "<C-b>": false, "<C-k>": false },
+
+  "window.zoomLevel": 3,
+  "redhat.telemetry.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
-  "vim.enableNeovim": true,
-  "vim.handleKeys": {
-    "<C-b>": false,
-    "<C-k>": false
-  },
-  "window.zoomLevel": 3,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust"
-  },
-  "[nginx]": {
-    "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
-  },
-  "redhat.telemetry.enabled": false
+
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+  "[rust]": { "editor.defaultFormatter": "rust-lang.rust" },
+  "[nginx]": { "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf" }
 }
