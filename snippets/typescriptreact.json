@@ -1,0 +1,16 @@
+{
+  "React Functional Component": {
+    "prefix": "rr",
+    "body": [
+      "import React, { FC } from \"react\";",
+      "",
+      "type Props = {}",
+      "",
+      "export const ${TM_FILENAME_BASE}: FC<Props> = () => {",
+      "  return <div></div>;",
+      "}",
+      ""
+    ],
+    "description": "React Functional Component"
+  }
+}
