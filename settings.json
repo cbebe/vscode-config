@@ -2,9 +2,6 @@
   // Git stuff
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-
-  // Theme
-  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
   "workbench.colorCustomizations": {
     "[Material Theme Ocean High Contrast]": {
       "activityBarBadge.background": "#616161",
@@ -53,9 +50,10 @@
   "python.languageServer": "Microsoft",
 
   "vim.enableNeovim": true,
-  "vim.handleKeys": { "<C-b>": false, "<C-k>": false },
-
-  "window.zoomLevel": 3,
+  "vim.handleKeys": {
+    "<C-b>": false,
+    "<C-k>": false
+  },
   "redhat.telemetry.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
 
@@ -73,5 +71,9 @@
 
   "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
   "[rust]": { "editor.defaultFormatter": "rust-lang.rust" },
-  "[nginx]": { "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf" }
+  "[nginx]": {
+    "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
+  },
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+  "window.zoomLevel": 1
 }
