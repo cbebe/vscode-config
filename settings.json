@@ -2,6 +2,10 @@
   // Git stuff
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
+  "git.enableCommitSigning": true,
+
+  // Theme
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
   "workbench.colorCustomizations": {
     "[Material Theme Ocean High Contrast]": {
       "activityBarBadge.background": "#616161",
@@ -32,6 +36,8 @@
   "materialTheme.accent": "Graphite",
   "workbench.iconTheme": "material-icon-theme",
   "glassit.alpha": 215,
+  "window.titleSeparator": " / ",
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}Thyck Code",
 
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "java.configuration.checkProjectSettingsExclusions": false,
@@ -46,7 +52,7 @@
   "liveServer.settings.port": 8000,
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-  "files.associations": { "*.module": "php", ".vmodrc": "shellscript", "*.vim": "vimrc" },
+  "files.associations": { "*.vim": "vimrc", "*.conf": "apacheconf" },
   "python.languageServer": "Microsoft",
 
   "vim.enableNeovim": true,
@@ -74,6 +80,5 @@
   "[nginx]": {
     "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
   },
-  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 2
 }
